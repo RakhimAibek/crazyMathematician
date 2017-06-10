@@ -12,6 +12,9 @@
 		E3823D761EE943CF00BF78AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3823D741EE943CF00BF78AA /* Main.storyboard */; };
 		E3823D781EE943CF00BF78AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3823D771EE943CF00BF78AA /* Assets.xcassets */; };
 		E3823D7B1EE943CF00BF78AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3823D791EE943CF00BF78AA /* LaunchScreen.storyboard */; };
+		E3823D831EE9445F00BF78AA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3823D821EE9445F00BF78AA /* GameViewController.swift */; };
+		E3B598091EEA57F2003E3767 /* FullProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B598081EEA57F2003E3767 /* FullProfileViewController.swift */; };
+		E3B5980B1EEA5828003E3767 /* ListContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5980A1EEA5828003E3767 /* ListContactTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		E3823D771EE943CF00BF78AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3823D7A1EE943CF00BF78AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3823D7C1EE943CF00BF78AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3823D821EE9445F00BF78AA /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E3B598081EEA57F2003E3767 /* FullProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullProfileViewController.swift; sourceTree = "<group>"; };
+		E3B5980A1EEA5828003E3767 /* ListContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListContactTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				E3823D701EE943CF00BF78AA /* AppDelegate.swift */,
 				E3823D721EE943CF00BF78AA /* ViewController.swift */,
+				E3823D821EE9445F00BF78AA /* GameViewController.swift */,
+				E3B598081EEA57F2003E3767 /* FullProfileViewController.swift */,
+				E3B5980A1EEA5828003E3767 /* ListContactTableViewController.swift */,
 				E3823D741EE943CF00BF78AA /* Main.storyboard */,
 				E3823D771EE943CF00BF78AA /* Assets.xcassets */,
 				E3823D791EE943CF00BF78AA /* LaunchScreen.storyboard */,
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3B5980B1EEA5828003E3767 /* ListContactTableViewController.swift in Sources */,
 				E3823D731EE943CF00BF78AA /* ViewController.swift in Sources */,
+				E3B598091EEA57F2003E3767 /* FullProfileViewController.swift in Sources */,
+				E3823D831EE9445F00BF78AA /* GameViewController.swift in Sources */,
 				E3823D711EE943CF00BF78AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +309,7 @@
 				E3823D811EE943CF00BF78AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
